@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05A48B512B7DCA92EB20166E56DC1B11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CC061229FED3D26CC778360624B077 /* Foundation.framework */; };
+		122DF7979CD7C117E09017B553697716 /* FYFCameraAuthorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B9F1439A3FBA26BA56E993AC83C4B6 /* FYFCameraAuthorization.m */; };
+		16219D9F575226E8893520A1D98164DD /* FYFAppAuthorizations.h in Headers */ = {isa = PBXBuildFile; fileRef = BED3A81618EACEB3A09301A9C643CFDE /* FYFAppAuthorizations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FFDAD441AAE48EFBB3A9B6EB8946A87 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9397554C44BE366B51E1463F8FB48BDF /* PhotosUI.framework */; };
+		2573687511A37CDDF67461DFCDDA5D0B /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF84CE5CA9E478BD799D861EF59FE254 /* Photos.framework */; };
+		289ECD6BD51BA66A26726E3C035F61A3 /* FYFAppAuthorizations-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F5EAFC864E57CBDE9E8AE1694F30343 /* FYFAppAuthorizations-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D3662AB1D2E93E3DF535FC87DE84ED7 /* Pods-FYFAppAuthorizations_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBE67C258CD02F92D9EBE4C3BC4B1E51 /* Pods-FYFAppAuthorizations_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		361F60E36F9399D279AD43E68155D5A1 /* FYFAppAuthorizations-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EA0281ABF0B0A1532C413B2F2ED46C /* FYFAppAuthorizations-dummy.m */; };
+		43DBB4C30B608E472F8E3E56BCECB6C4 /* FYFPhotoAuthorization.h in Headers */ = {isa = PBXBuildFile; fileRef = D606C063B10A97A2D6B01743C95C6154 /* FYFPhotoAuthorization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50F58C80C83A8848B12D78D9F65ECF1A /* Pods-FYFAppAuthorizations_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D949A973206FA8B4942D7665D7FBC177 /* Pods-FYFAppAuthorizations_Example-dummy.m */; };
+		529E79E37D962AED727B74943CFF4937 /* FYFCameraAuthorization.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B432C38A5C8C0DD5A85410D4F434C93 /* FYFCameraAuthorization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B214AB4FFC7B8DF952D862F41615B22 /* Pods-FYFAppAuthorizations_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D33E9CA3B6949B16DE6A25EE95C5242 /* Pods-FYFAppAuthorizations_Tests-dummy.m */; };
+		9BDE752E5361D62E54BA44B84844EF9B /* FYFPhotoAuthorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 78639F2B8860EB2F682DBDBA4867DEF9 /* FYFPhotoAuthorization.m */; };
+		DB2A2FD3D1A3BBAE780B2C1439A9AACF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CC061229FED3D26CC778360624B077 /* Foundation.framework */; };
+		E931020394DE1F1302C5CE40CEE7EF5F /* Pods-FYFAppAuthorizations_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 911E94387085485A1300186111147282 /* Pods-FYFAppAuthorizations_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9CC041AA931EEB0B198434C7B888A8C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EECCDF119780DC00C6A3073C31748C /* AVFoundation.framework */; };
+		FC7CB23E8FB7CB183FBEECAC08E3BFDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CC061229FED3D26CC778360624B077 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DBC24D1A553DD6989B5D4EBE94FEA39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5266EA7FD6AF93053E1448FD64CA2A6;
+			remoteInfo = "Pods-FYFAppAuthorizations_Example";
+		};
+		EF7655C7CA2DE2A4EBC8254309E4C6D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B72A211F5436C0356AFD4D02282C37EC;
+			remoteInfo = FYFAppAuthorizations;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D43AAFF4AB4B9F9B91805A4F9DA58BC /* FYFAppAuthorizations */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FYFAppAuthorizations; path = FYFAppAuthorizations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12EECCDF119780DC00C6A3073C31748C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		18AB5E0173C952358D0F8C51DA46B214 /* FYFAppAuthorizations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYFAppAuthorizations.release.xcconfig; sourceTree = "<group>"; };
+		34AD2040FAE053722F969774FA78123A /* Pods-FYFAppAuthorizations_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYFAppAuthorizations_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3AE1D1E4BCBE950E27895E9866B6446B /* Pods-FYFAppAuthorizations_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYFAppAuthorizations_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		52EA0281ABF0B0A1532C413B2F2ED46C /* FYFAppAuthorizations-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FYFAppAuthorizations-dummy.m"; sourceTree = "<group>"; };
+		584C1C2C190D8454FD98AD7ED56FE273 /* Pods-FYFAppAuthorizations_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FYFAppAuthorizations_Example"; path = Pods_FYFAppAuthorizations_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59D95DCBD16FC7CBA22530B8AF0E7513 /* Pods-FYFAppAuthorizations_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYFAppAuthorizations_Example-Info.plist"; sourceTree = "<group>"; };
+		5F5EAFC864E57CBDE9E8AE1694F30343 /* FYFAppAuthorizations-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYFAppAuthorizations-umbrella.h"; sourceTree = "<group>"; };
+		66CC061229FED3D26CC778360624B077 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67774E8DDA75852B876152F325ED6044 /* Pods-FYFAppAuthorizations_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FYFAppAuthorizations_Tests"; path = Pods_FYFAppAuthorizations_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D73D157D42115C3EE6ECF7B33F40F9 /* Pods-FYFAppAuthorizations_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FYFAppAuthorizations_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6A6759383D55E5BB3F757A24E092F99D /* FYFAppAuthorizations.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FYFAppAuthorizations.modulemap; sourceTree = "<group>"; };
+		6B432C38A5C8C0DD5A85410D4F434C93 /* FYFCameraAuthorization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYFCameraAuthorization.h; path = FYFAppAuthorizations/Classes/FYFCameraAuthorization.h; sourceTree = "<group>"; };
+		6C0334DDC32D9AD989856BD2C839CD89 /* FYFAppAuthorizations.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FYFAppAuthorizations.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6FF47483C0CF54A84236F9D964853E5B /* Pods-FYFAppAuthorizations_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FYFAppAuthorizations_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70AD379956574EAF7BCC6C45C6F67FE2 /* Pods-FYFAppAuthorizations_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYFAppAuthorizations_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		752C19AB1DD9F038FA27AF3A19988F97 /* Pods-FYFAppAuthorizations_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYFAppAuthorizations_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		75842B56B0702A2D3918B6D613B895C2 /* FYFAppAuthorizations-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FYFAppAuthorizations-Info.plist"; sourceTree = "<group>"; };
+		78639F2B8860EB2F682DBDBA4867DEF9 /* FYFPhotoAuthorization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYFPhotoAuthorization.m; path = FYFAppAuthorizations/Classes/FYFPhotoAuthorization.m; sourceTree = "<group>"; };
+		78B9F1439A3FBA26BA56E993AC83C4B6 /* FYFCameraAuthorization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYFCameraAuthorization.m; path = FYFAppAuthorizations/Classes/FYFCameraAuthorization.m; sourceTree = "<group>"; };
+		7D33E9CA3B6949B16DE6A25EE95C5242 /* Pods-FYFAppAuthorizations_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FYFAppAuthorizations_Tests-dummy.m"; sourceTree = "<group>"; };
+		8FC649C16C9648A67B8E9B3357E8FEE6 /* Pods-FYFAppAuthorizations_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FYFAppAuthorizations_Tests.modulemap"; sourceTree = "<group>"; };
+		911E94387085485A1300186111147282 /* Pods-FYFAppAuthorizations_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FYFAppAuthorizations_Example-umbrella.h"; sourceTree = "<group>"; };
+		9397554C44BE366B51E1463F8FB48BDF /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/PhotosUI.framework; sourceTree = DEVELOPER_DIR; };
+		987274AA15F39144E405391ED0693869 /* Pods-FYFAppAuthorizations_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FYFAppAuthorizations_Example.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A77201192DF40DFC8C5731319816708E /* FYFAppAuthorizations-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYFAppAuthorizations-prefix.pch"; sourceTree = "<group>"; };
+		BED3A81618EACEB3A09301A9C643CFDE /* FYFAppAuthorizations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYFAppAuthorizations.h; path = FYFAppAuthorizations/Classes/FYFAppAuthorizations.h; sourceTree = "<group>"; };
+		C2589FE5A6960651258D042896879980 /* Pods-FYFAppAuthorizations_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYFAppAuthorizations_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C40F67EEA9038A2312B853648B43EC40 /* Pods-FYFAppAuthorizations_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FYFAppAuthorizations_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D606C063B10A97A2D6B01743C95C6154 /* FYFPhotoAuthorization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYFPhotoAuthorization.h; path = FYFAppAuthorizations/Classes/FYFPhotoAuthorization.h; sourceTree = "<group>"; };
+		D82A72C8B85C38BCC86ECAAC423C811C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D949A973206FA8B4942D7665D7FBC177 /* Pods-FYFAppAuthorizations_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FYFAppAuthorizations_Example-dummy.m"; sourceTree = "<group>"; };
+		DF84CE5CA9E478BD799D861EF59FE254 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
+		EBE67C258CD02F92D9EBE4C3BC4B1E51 /* Pods-FYFAppAuthorizations_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FYFAppAuthorizations_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EC33F566AAABE6A63995BF32586438F4 /* FYFAppAuthorizations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYFAppAuthorizations.debug.xcconfig; sourceTree = "<group>"; };
+		F26F46AB08070A1D31460AD01A7AAE5D /* Pods-FYFAppAuthorizations_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYFAppAuthorizations_Tests-Info.plist"; sourceTree = "<group>"; };
+		F671D2AAAF19060AB78BE126A6318BAE /* Pods-FYFAppAuthorizations_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYFAppAuthorizations_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBAD2BC27ABEC0744B0CBAA6B707398D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		160F36A15CFC6F2F1B0975101B40BBDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2A2FD3D1A3BBAE780B2C1439A9AACF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9D125A0026040C63C8F8F0AF2041FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05A48B512B7DCA92EB20166E56DC1B11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADAB5EB7A64631489E7CB063ADE8B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CC041AA931EEB0B198434C7B888A8C /* AVFoundation.framework in Frameworks */,
+				FC7CB23E8FB7CB183FBEECAC08E3BFDA /* Foundation.framework in Frameworks */,
+				2573687511A37CDDF67461DFCDDA5D0B /* Photos.framework in Frameworks */,
+				1FFDAD441AAE48EFBB3A9B6EB8946A87 /* PhotosUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		337C16B690358D962218BAF5E0123786 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6C0334DDC32D9AD989856BD2C839CD89 /* FYFAppAuthorizations.podspec */,
+				D82A72C8B85C38BCC86ECAAC423C811C /* LICENSE */,
+				FBAD2BC27ABEC0744B0CBAA6B707398D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		391AEA0E679895A7514B2B1733A31554 /* FYFAppAuthorizations */ = {
+			isa = PBXGroup;
+			children = (
+				BED3A81618EACEB3A09301A9C643CFDE /* FYFAppAuthorizations.h */,
+				6B432C38A5C8C0DD5A85410D4F434C93 /* FYFCameraAuthorization.h */,
+				78B9F1439A3FBA26BA56E993AC83C4B6 /* FYFCameraAuthorization.m */,
+				D606C063B10A97A2D6B01743C95C6154 /* FYFPhotoAuthorization.h */,
+				78639F2B8860EB2F682DBDBA4867DEF9 /* FYFPhotoAuthorization.m */,
+				337C16B690358D962218BAF5E0123786 /* Pod */,
+				8495AA8BC702827937F52015850C6806 /* Support Files */,
+			);
+			name = FYFAppAuthorizations;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		47FBFFE7C15CB1EC5AEACAC382BFF9A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D43AAFF4AB4B9F9B91805A4F9DA58BC /* FYFAppAuthorizations */,
+				584C1C2C190D8454FD98AD7ED56FE273 /* Pods-FYFAppAuthorizations_Example */,
+				67774E8DDA75852B876152F325ED6044 /* Pods-FYFAppAuthorizations_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C427CBF68A929BEF86A8A6E02E78DAC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E072BDE19E4E3D24C24E4BC9146E91E /* Pods-FYFAppAuthorizations_Example */,
+				4FC21547CFFE92CE92A65DCDC838B3FF /* Pods-FYFAppAuthorizations_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4E072BDE19E4E3D24C24E4BC9146E91E /* Pods-FYFAppAuthorizations_Example */ = {
+			isa = PBXGroup;
+			children = (
+				987274AA15F39144E405391ED0693869 /* Pods-FYFAppAuthorizations_Example.modulemap */,
+				67D73D157D42115C3EE6ECF7B33F40F9 /* Pods-FYFAppAuthorizations_Example-acknowledgements.markdown */,
+				3AE1D1E4BCBE950E27895E9866B6446B /* Pods-FYFAppAuthorizations_Example-acknowledgements.plist */,
+				D949A973206FA8B4942D7665D7FBC177 /* Pods-FYFAppAuthorizations_Example-dummy.m */,
+				C40F67EEA9038A2312B853648B43EC40 /* Pods-FYFAppAuthorizations_Example-frameworks.sh */,
+				59D95DCBD16FC7CBA22530B8AF0E7513 /* Pods-FYFAppAuthorizations_Example-Info.plist */,
+				911E94387085485A1300186111147282 /* Pods-FYFAppAuthorizations_Example-umbrella.h */,
+				34AD2040FAE053722F969774FA78123A /* Pods-FYFAppAuthorizations_Example.debug.xcconfig */,
+				C2589FE5A6960651258D042896879980 /* Pods-FYFAppAuthorizations_Example.release.xcconfig */,
+			);
+			name = "Pods-FYFAppAuthorizations_Example";
+			path = "Target Support Files/Pods-FYFAppAuthorizations_Example";
+			sourceTree = "<group>";
+		};
+		4FC21547CFFE92CE92A65DCDC838B3FF /* Pods-FYFAppAuthorizations_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8FC649C16C9648A67B8E9B3357E8FEE6 /* Pods-FYFAppAuthorizations_Tests.modulemap */,
+				6FF47483C0CF54A84236F9D964853E5B /* Pods-FYFAppAuthorizations_Tests-acknowledgements.markdown */,
+				752C19AB1DD9F038FA27AF3A19988F97 /* Pods-FYFAppAuthorizations_Tests-acknowledgements.plist */,
+				7D33E9CA3B6949B16DE6A25EE95C5242 /* Pods-FYFAppAuthorizations_Tests-dummy.m */,
+				F26F46AB08070A1D31460AD01A7AAE5D /* Pods-FYFAppAuthorizations_Tests-Info.plist */,
+				EBE67C258CD02F92D9EBE4C3BC4B1E51 /* Pods-FYFAppAuthorizations_Tests-umbrella.h */,
+				F671D2AAAF19060AB78BE126A6318BAE /* Pods-FYFAppAuthorizations_Tests.debug.xcconfig */,
+				70AD379956574EAF7BCC6C45C6F67FE2 /* Pods-FYFAppAuthorizations_Tests.release.xcconfig */,
+			);
+			name = "Pods-FYFAppAuthorizations_Tests";
+			path = "Target Support Files/Pods-FYFAppAuthorizations_Tests";
+			sourceTree = "<group>";
+		};
+		8495AA8BC702827937F52015850C6806 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A6759383D55E5BB3F757A24E092F99D /* FYFAppAuthorizations.modulemap */,
+				52EA0281ABF0B0A1532C413B2F2ED46C /* FYFAppAuthorizations-dummy.m */,
+				75842B56B0702A2D3918B6D613B895C2 /* FYFAppAuthorizations-Info.plist */,
+				A77201192DF40DFC8C5731319816708E /* FYFAppAuthorizations-prefix.pch */,
+				5F5EAFC864E57CBDE9E8AE1694F30343 /* FYFAppAuthorizations-umbrella.h */,
+				EC33F566AAABE6A63995BF32586438F4 /* FYFAppAuthorizations.debug.xcconfig */,
+				18AB5E0173C952358D0F8C51DA46B214 /* FYFAppAuthorizations.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FYFAppAuthorizations";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB270E4F1471910B28FD8DEB5135586C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB270E4F1471910B28FD8DEB5135586C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				12EECCDF119780DC00C6A3073C31748C /* AVFoundation.framework */,
+				66CC061229FED3D26CC778360624B077 /* Foundation.framework */,
+				DF84CE5CA9E478BD799D861EF59FE254 /* Photos.framework */,
+				9397554C44BE366B51E1463F8FB48BDF /* PhotosUI.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CABBAE5AFCE16784D86A9E16C14C8DBC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				391AEA0E679895A7514B2B1733A31554 /* FYFAppAuthorizations */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CABBAE5AFCE16784D86A9E16C14C8DBC /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				47FBFFE7C15CB1EC5AEACAC382BFF9A7 /* Products */,
+				4C427CBF68A929BEF86A8A6E02E78DAC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1287FBF40FD5F7E046231EDBD71584A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D3662AB1D2E93E3DF535FC87DE84ED7 /* Pods-FYFAppAuthorizations_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A566F36A64E85A8743759F0814F0A997 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E931020394DE1F1302C5CE40CEE7EF5F /* Pods-FYFAppAuthorizations_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BFC352FBEC09EC61F546580CB95D39 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16219D9F575226E8893520A1D98164DD /* FYFAppAuthorizations.h in Headers */,
+				289ECD6BD51BA66A26726E3C035F61A3 /* FYFAppAuthorizations-umbrella.h in Headers */,
+				529E79E37D962AED727B74943CFF4937 /* FYFCameraAuthorization.h in Headers */,
+				43DBB4C30B608E472F8E3E56BCECB6C4 /* FYFPhotoAuthorization.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9BB0C9D279C9BE4B7F524C5115F174AF /* Pods-FYFAppAuthorizations_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A71FD6969F62CB165AFA15E429CA1CC8 /* Build configuration list for PBXNativeTarget "Pods-FYFAppAuthorizations_Tests" */;
+			buildPhases = (
+				1287FBF40FD5F7E046231EDBD71584A5 /* Headers */,
+				69858292017781F15F1D94FB349F9192 /* Sources */,
+				8F9D125A0026040C63C8F8F0AF2041FE /* Frameworks */,
+				6E5A56F62DC0BE08A18683AD497AF99F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8625E9193691A0CD024D30081A39392B /* PBXTargetDependency */,
+			);
+			name = "Pods-FYFAppAuthorizations_Tests";
+			productName = Pods_FYFAppAuthorizations_Tests;
+			productReference = 67774E8DDA75852B876152F325ED6044 /* Pods-FYFAppAuthorizations_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		B72A211F5436C0356AFD4D02282C37EC /* FYFAppAuthorizations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6D8E20EDF3EF3F33AF61F2C2269F67 /* Build configuration list for PBXNativeTarget "FYFAppAuthorizations" */;
+			buildPhases = (
+				F5BFC352FBEC09EC61F546580CB95D39 /* Headers */,
+				A81D242690E2E16A22BAA5A00DB54A3F /* Sources */,
+				FADAB5EB7A64631489E7CB063ADE8B13 /* Frameworks */,
+				27C282F54CBC251BBAA935A9AD99B05F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYFAppAuthorizations;
+			productName = FYFAppAuthorizations;
+			productReference = 0D43AAFF4AB4B9F9B91805A4F9DA58BC /* FYFAppAuthorizations */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5266EA7FD6AF93053E1448FD64CA2A6 /* Pods-FYFAppAuthorizations_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A163D1B690D5E0AAEC32D7ADA3E4AD6C /* Build configuration list for PBXNativeTarget "Pods-FYFAppAuthorizations_Example" */;
+			buildPhases = (
+				A566F36A64E85A8743759F0814F0A997 /* Headers */,
+				9FB2BF57A15150A5765A07C15A9725C8 /* Sources */,
+				160F36A15CFC6F2F1B0975101B40BBDF /* Frameworks */,
+				EACC0A2491F3C03C4B49F4D2CD96A025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75A103CC625366F0F4DB9A8FBBB1B829 /* PBXTargetDependency */,
+			);
+			name = "Pods-FYFAppAuthorizations_Example";
+			productName = Pods_FYFAppAuthorizations_Example;
+			productReference = 584C1C2C190D8454FD98AD7ED56FE273 /* Pods-FYFAppAuthorizations_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 47FBFFE7C15CB1EC5AEACAC382BFF9A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B72A211F5436C0356AFD4D02282C37EC /* FYFAppAuthorizations */,
+				F5266EA7FD6AF93053E1448FD64CA2A6 /* Pods-FYFAppAuthorizations_Example */,
+				9BB0C9D279C9BE4B7F524C5115F174AF /* Pods-FYFAppAuthorizations_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27C282F54CBC251BBAA935A9AD99B05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5A56F62DC0BE08A18683AD497AF99F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACC0A2491F3C03C4B49F4D2CD96A025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69858292017781F15F1D94FB349F9192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B214AB4FFC7B8DF952D862F41615B22 /* Pods-FYFAppAuthorizations_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB2BF57A15150A5765A07C15A9725C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F58C80C83A8848B12D78D9F65ECF1A /* Pods-FYFAppAuthorizations_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A81D242690E2E16A22BAA5A00DB54A3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361F60E36F9399D279AD43E68155D5A1 /* FYFAppAuthorizations-dummy.m in Sources */,
+				122DF7979CD7C117E09017B553697716 /* FYFCameraAuthorization.m in Sources */,
+				9BDE752E5361D62E54BA44B84844EF9B /* FYFPhotoAuthorization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75A103CC625366F0F4DB9A8FBBB1B829 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FYFAppAuthorizations;
+			target = B72A211F5436C0356AFD4D02282C37EC /* FYFAppAuthorizations */;
+			targetProxy = EF7655C7CA2DE2A4EBC8254309E4C6D1 /* PBXContainerItemProxy */;
+		};
+		8625E9193691A0CD024D30081A39392B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FYFAppAuthorizations_Example";
+			target = F5266EA7FD6AF93053E1448FD64CA2A6 /* Pods-FYFAppAuthorizations_Example */;
+			targetProxy = 3DBC24D1A553DD6989B5D4EBE94FEA39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04A424E1004E67914FEE28E9CE65BEF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70AD379956574EAF7BCC6C45C6F67FE2 /* Pods-FYFAppAuthorizations_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FYFAppAuthorizations_Tests/Pods-FYFAppAuthorizations_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FYFAppAuthorizations_Tests/Pods-FYFAppAuthorizations_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71D4AB17210F380671677B8ECC962BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2589FE5A6960651258D042896879980 /* Pods-FYFAppAuthorizations_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FYFAppAuthorizations_Example/Pods-FYFAppAuthorizations_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FYFAppAuthorizations_Example/Pods-FYFAppAuthorizations_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		852E6B6359A354E321EAEB161AE1533E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18AB5E0173C952358D0F8C51DA46B214 /* FYFAppAuthorizations.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FYFAppAuthorizations/FYFAppAuthorizations-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FYFAppAuthorizations/FYFAppAuthorizations-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FYFAppAuthorizations/FYFAppAuthorizations.modulemap";
+				PRODUCT_MODULE_NAME = FYFAppAuthorizations;
+				PRODUCT_NAME = FYFAppAuthorizations;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		947D484E316A622EF58A98D5DA51D5C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34AD2040FAE053722F969774FA78123A /* Pods-FYFAppAuthorizations_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FYFAppAuthorizations_Example/Pods-FYFAppAuthorizations_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FYFAppAuthorizations_Example/Pods-FYFAppAuthorizations_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D2B1AE1FBFA80D1CDAFC5F10B67CEBE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F671D2AAAF19060AB78BE126A6318BAE /* Pods-FYFAppAuthorizations_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FYFAppAuthorizations_Tests/Pods-FYFAppAuthorizations_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FYFAppAuthorizations_Tests/Pods-FYFAppAuthorizations_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E15572D0C48CCA21401F7A6A9F2A6050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC33F566AAABE6A63995BF32586438F4 /* FYFAppAuthorizations.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FYFAppAuthorizations/FYFAppAuthorizations-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FYFAppAuthorizations/FYFAppAuthorizations-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FYFAppAuthorizations/FYFAppAuthorizations.modulemap";
+				PRODUCT_MODULE_NAME = FYFAppAuthorizations;
+				PRODUCT_NAME = FYFAppAuthorizations;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A163D1B690D5E0AAEC32D7ADA3E4AD6C /* Build configuration list for PBXNativeTarget "Pods-FYFAppAuthorizations_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947D484E316A622EF58A98D5DA51D5C1 /* Debug */,
+				71D4AB17210F380671677B8ECC962BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A71FD6969F62CB165AFA15E429CA1CC8 /* Build configuration list for PBXNativeTarget "Pods-FYFAppAuthorizations_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B1AE1FBFA80D1CDAFC5F10B67CEBE7 /* Debug */,
+				04A424E1004E67914FEE28E9CE65BEF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6D8E20EDF3EF3F33AF61F2C2269F67 /* Build configuration list for PBXNativeTarget "FYFAppAuthorizations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15572D0C48CCA21401F7A6A9F2A6050 /* Debug */,
+				852E6B6359A354E321EAEB161AE1533E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

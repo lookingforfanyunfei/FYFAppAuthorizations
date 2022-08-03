@@ -1,0 +1,16 @@
+PODS:
+  - FYFAppAuthorizations (0.1.0)
+
+DEPENDENCIES:
+  - FYFAppAuthorizations (from `../`)
+
+EXTERNAL SOURCES:
+  FYFAppAuthorizations:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FYFAppAuthorizations: 1969afd84d017c6e57033e0fa1064b079e6d612f
+
+PODFILE CHECKSUM: 3741a315b59c863fe47454a53b3808f2402e9a28
+
+COCOAPODS: 1.11.3
