@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'FYFAppAuthorizations_Example' do
+  pod 'FYFAppAuthorizations', :path => '../'
+
+  target 'FYFAppAuthorizations_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
